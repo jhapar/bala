@@ -319,7 +319,7 @@
   width: 85%; /* Reduce from 100% to account for margin */
   max-width: 500px; /* Increase max-width as needed */
   min-width: 300px; /* Ensure minimum size */
-  margin-left: 15%;
+  margin-left: auto%;
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove inline spacing */
 }
