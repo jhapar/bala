@@ -606,7 +606,7 @@
     height: 15%;
     line-height: 1.2em;
     text-align: center;
-  background: rgb(100, 143, 211);
+    background: #222;
     color: #ccc;
     font-size: 0.5rem;
   }

@@ -77,9 +77,10 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   const galleryEl = document.getElementById('gallery');
 
   const models = [
-    { name: "Kaleesha", file: "models/Kaleesha.stl" },
-    { name: "Kaleesha", file: "models/Kaleesha.stl" },
-    { name: "Kaleesha", file: "models/Kaleesha.stl" },
+        { name: "Kaleesha", file: "models/Kaleesha.stl" },
+
+      { name: "Kaleesha", file: "models/Kaleesha.stl" },
+
 
 
  
