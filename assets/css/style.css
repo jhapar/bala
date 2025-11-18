@@ -597,7 +597,7 @@
     height: 15%;
     line-height: 1.2em;
     text-align: center;
-    background: #222;
+  background: rgb(100, 143, 211);
     font-weight: 600;
     font-size: 0.6rem;
   }
