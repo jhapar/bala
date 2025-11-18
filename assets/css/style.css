@@ -565,3 +565,64 @@
     height: 100%;
     object-fit: cover; /* Ensures video covers the container */
 }
+
+  body {
+    margin: 20px;
+    background: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Grid container */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+  }
+
+  .postcard {
+    width: 100%;
+    aspect-ratio: 8/7; /* keeps 2:1 ratio (e.g., 100x50) */
+    background: #111;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    font-size: 6px;
+    position: relative;
+  }
+
+  .postcard-header {
+    height: 15%;
+    line-height: 1.2em;
+    text-align: center;
+    background: #222;
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+
+  .postcard-footer {
+    height: 15%;
+    line-height: 1.2em;
+    text-align: center;
+    background: #222;
+    color: #ccc;
+    font-size: 0.5rem;
+  }
+
+  .msg {
+    position: absolute;
+    left: 3px;
+    bottom: 3px;
+    background: rgba(0,0,0,0.7);
+    padding: 1px 3px;
+    border-radius: 2px;
+    font-size: 0.4rem;
+  }
+
+  .viewer {
+    flex: 1;
+  }
+
+
