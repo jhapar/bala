@@ -582,7 +582,7 @@
   .postcard {
     width: 100%;
     aspect-ratio: 8/7; /* keeps 2:1 ratio (e.g., 100x50) */
-    background: #111;
+  background: rgb(100, 143, 211);
     color: white;
     border-radius: 5px;
     overflow: hidden;
